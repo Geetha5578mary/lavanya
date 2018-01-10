@@ -2,10 +2,12 @@
 #include<conio.h>
 void main()
 {
-printf("hello");
-printf("hello");
-printf("hello");
-printf("hello");
-printf("hello");
+int i,n;
+  printf("enter the n value");
+  scanf("%d",&n);
+  for(i=0;i<n;i++)
+  {
+    printf("hello ");
+  }
 getch();
 }

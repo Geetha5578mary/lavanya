@@ -3,14 +3,14 @@ void main()
 {
 char c;
 printf("enter the character");
-scanf("%s",c);
-if(c<='a'&&c>='z')
+scanf("%c",&c);
+if(c>='a' && c<='z')
 {
-printf("alphabet");
+printf("%c alphabet",c);
 }
 else
 {
-printf("not alphabet");
+printf("%c not alphabet",c);
 }
 getch();
 }

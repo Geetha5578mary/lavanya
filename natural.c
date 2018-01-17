@@ -8,5 +8,5 @@ scanf("%d",&n);
 for(i=0;i<=n;++i)
 {
 sum=sum+i;}
-printf("the sum is",sum);
+printf("the sum i %d",sum);
 }

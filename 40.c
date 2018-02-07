@@ -1,17 +1,17 @@
 #include <stdio.h>
  
 int main(void) {
-	int t1 = 0, t2 = 1, nextTerm = 0, n;
-    printf("Enter a positive number: ");
+	int a = 0, b = 1, n1 = 0, n;
+    printf("Enter a number ");
     scanf("%d", &n);
-    printf("Fibonacci Series: %d, %d, ", t1, t2);
-    nextTerm = t1 + t2;
-    while(nextTerm <= n)
+    printf("Fibonacci Series: %d, %d, ", a, b);
+    n1= a + b;
+    while(n1 <= n)
     {
-        printf("%d, ",nextTerm);
-        t1 = t2;
-        t2 = nextTerm;
-        nextTerm = t1 + t2;
+        printf("%d, ",n1);
+        a = b;
+        b = n1;
+        n1= a + b;
     }
 	return 0;
 }

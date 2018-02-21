@@ -6,11 +6,11 @@ int main(void) {
 	t=n*m;
 	if(t%2==0)
 	{
-		printf("yes");
+		printf("even");
 	}
 	else
 	{
-		printf("no");
+		printf("odd");
 	}
  
 	return 0;

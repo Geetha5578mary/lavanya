@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include<conio.h>
 void main() {
-	char b[100];
+	char a[100];
 	int i,f=0;
-	gets(b);
+	printf("enter the string");
+	scanf("%d",&a);
 	for(i=0;i<100;i++)
 	{
 	if(((a[i]>='a'&&a[i]<='z')||(a[i]>='A'&&a[i]

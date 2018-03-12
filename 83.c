@@ -1,19 +1,26 @@
-#include <stdio.h>
-int main() 
-{	
-   int n1,n2,i;
-   char c;
-   for(i=0;i<4;i++)
-   {
-       scanf("%d %c %d",&n1,&c,&n2);
-       if(i%2==0)
-       {
-           printf("%d\n",(n1/n2));
-       }
-       else
-       {
-           printf("%d\n",(n1%n2));
-       }
-   }
-	return 0;
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,i;
+char sym;
+clrscr();
+printf("enter the a,b,sym:");
+for(i=0;i<4;i++)
+{
+scanf("%d%c%d",&a,&sym,&b);
+if(sym=='/')
+{
+printf("division is %d\n",a/b);
+}
+else if(sym=='%')
+{
+printf("modulo is %d\n",a%b);
+}
+else
+{
+printf("wrong symbol\n");
+}
+getch();
+}
 }

@@ -1,14 +1,15 @@
-#include <stdio.h>
-
-int main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
-    int n,a[10],i,sum=0;
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
-    {
-    scanf("%d",&a[i]);
-    sum=sum+a[i];
-    }
-    printf("%d",sum);
-    return 0;
+int i,sum=0,n,a[20];
+printf("enter tghe n");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+sum=sum+a[i];
+}
+printf("%d",sum);
+getch();
 }
